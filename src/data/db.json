@@ -2,65 +2,89 @@
   "passengers": [
     {
       "id": 1,
-      "flightsOriginId":2,
+      "name": "Natalia",
+      "identification": "111111111",
+      "flightsOriginId": 2,
       "flightsDestinyId": 1
     },
     {
       "id": 2,
-      "flightsOriginId":2,
+      "name": "Adelia",
+      "identification": "111111111",
+      "flightsOriginId": 2,
       "flightsDestinyId": 1
     }
   ],
   "flights": [
     {
       "id": 1,
-      "dateLeaved": 1677335388000,
-      "dateArrive": 1677342600000,
+      "dateLeaved": 1678075200000,
+      "dateArrive": 1678080600000,
       "origin": "El Dorado International Airport",
       "destiny": "Rafael Nunez Airport",
       "scales": "Sin escalas",
       "price": 3358,
-      "Seats": ["A1","B2","C1"]
+      "Seats": [
+        "A1",
+        "B2",
+        "C1"
+      ]
     },
     {
       "id": 2,
-      "dateLeaved": 1677335388000,
-      "dateArrive": 1677342600000,
+      "dateLeaved": 1678096800000,
+      "dateArrive": 1678101000000,
       "origin": "El Dorado International Airport",
       "destiny": "Olaya Herrera Airport",
       "scales": "Sin escalas",
       "price": 5400,
-      "Seats": ["D10","E2","E10"]
+      "Seats": [
+        "D10",
+        "E2",
+        "E10"
+      ]
     },
     {
       "id": 3,
-      "dateLeaved": 1677573000000,
-      "dateArrive": 1677576600000,
+      "dateLeaved": 1678473900000,
+      "dateArrive": 1678475220000,
       "origin": "Olaya Herrera Airport",
       "destiny": "El Dorado International Airport",
       "scales": "Sin escalas",
       "price": 5400,
-      "Seats": ["C10","B5","C7"]
+      "Seats": [
+        "C10",
+        "B5",
+        "C7"
+      ]
     },
     {
       "id": 4,
-      "dateLeaved": 1677367800000,
-      "dateArrive": 1677378600000,
+      "dateLeaved": 1678093200000,
+      "dateArrive": 1678098600000,
       "origin": "El Dorado International Airport",
       "destiny": "Olaya Herrera Airport",
       "scales": "Sin escalas",
       "price": 5400,
-      "Seats": ["A9","C5","C1"]
+      "Seats": [
+        "A9",
+        "C5",
+        "C1"
+      ]
     },
     {
       "id": 5,
-      "dateLeaved": 1677367800000,
-      "dateArrive": 1677378600000,
+      "dateLeaved": 1678410000000,
+      "dateArrive": 1678414500000,
       "origin": "Olaya Herrera Airport",
       "destiny": "El Dorado International Airport",
       "scales": "Sin escalas",
       "price": 3358,
-      "Seats": ["E9","A5","F1"]
+      "Seats": [
+        "E9",
+        "A5",
+        "F1"
+      ]
     }
   ]
 }
